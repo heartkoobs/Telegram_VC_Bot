@@ -7,12 +7,12 @@ if HEROKU:
     from dotenv import load_dotenv
 
     load_dotenv()  # take environment variables from .env.
-    API_ID = int(environ["API_ID"])
-    API_HASH = environ["API_HASH"]
+    API_ID = int(environ["3888634"])
+    API_HASH = environ["77168685ab2dbd9ab1f7cf1ca9ebd044"]
     SESSION_STRING = environ[
-        "SESSION_STRING"
+        "AQCtTJpcTWFybT-VnFFn4SYwCTqegeH2JQDnWeSJEZZtB-_L5TGpJKwOKn7dYEeUfFR71O5gfCV4hKEaQdTTebATinSNS3ji7UCEi5TIz0IQkN7If6odOVtSNu0hMqgtjPXJZqOWjGy8FA3BGcG67fgAxkpPzt9HvLUfPpIHGPZtoCzMw6WhsNk1wiiDudSdaoxee-JG9OZRfG0MAO51pw_cbhtuSjZpyJ_76ezsiwm--4bGMlu2z8beozSioM-5fYeOhHaKxOh2h9DSpKc-MDGN-Rb7oP1O2wdBLwU8FgnMdVo_9J4ARaxmKeoJWYGaoOF58Fm-uE1pZaiSGf_FCZUHYZebZQA"
     ]  # Check Readme for session
-    ARQ_API_KEY = environ["ARQ_API_KEY"]
+    ARQ_API_KEY = environ["LHDTAS-HVWPGP-GCVXZJ-PGUXNH-ARQ"]
     CHAT_ID = int(environ["CHAT_ID"])
     DEFAULT_SERVICE = environ.get("DEFAULT_SERVICE") or "youtube"
     BITRATE = int(environ["BITRATE"])
